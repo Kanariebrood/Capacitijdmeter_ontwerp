@@ -254,7 +254,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -502,7 +502,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Capacitijdmeter_ontwerp_officieel.kicad_pro",
+    "filename": "Capacitijdmeter_ontwerp_counter.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -540,6 +540,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -669,18 +670,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Capacitijdmeter_ontwerp_officieel.kicad_sch",
-        "name": "Capacitijdmeter_ontwerp_officieel",
+        "filename": "Capacitijdmeter_ontwerp_counter.kicad_sch",
+        "name": "Capacitijdmeter_ontwerp_counter",
         "uuid": "6aee43a7-1066-4186-960d-016fada1ad3c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP1-7,R1,SW1,C1-3,C14-17,C22-23,J1-3,#PWR1-3,#PWR12,#PWR15-16,#PWR37-38,#PWR50,#PWR52-53,#PWR58,#PWR65,#PWR67-71,#PWR74-75",
     "variants": []
   },
   "sheets": [
     [
       "6aee43a7-1066-4186-960d-016fada1ad3c",
-      "Capacitijdmeter_ontwerp_officieel"
+      "Capacitijdmeter_ontwerp_counter"
     ]
   ],
   "text_variables": {},
