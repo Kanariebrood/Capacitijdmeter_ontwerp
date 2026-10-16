@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|45878065|64227500|F.Cu|4|1f0ddccd-7c50-4eb0-b444-9f4ae4102cfb|30242340-f376-4416-977e-9c600ea3562c",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -245,7 +250,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.9,
+          "diameter": 1.5,
           "drill": 0.85
         }
       ],
@@ -682,7 +687,7 @@
         "uuid": "6aee43a7-1066-4186-960d-016fada1ad3c"
       }
     ],
-    "used_designators": "TP1-9,R1,SW1,C1-3,C14-17,C22-23,J1-6,#PWR1-3,#PWR12,#PWR15-16,#PWR37-38,#PWR50,#PWR52-53,#PWR58,#PWR65,#PWR67-71,#PWR74-75",
+    "used_designators": "LED1,TP1-11,R1-4,SW1,C1-3,C14-17,C22-23,J1-6,#PWR1-3,#PWR12,#PWR15-16,#PWR37-38,#PWR43,#PWR50,#PWR52-53,#PWR58,#PWR65,#PWR67-71,#PWR74-79",
     "variants": []
   },
   "sheets": [
