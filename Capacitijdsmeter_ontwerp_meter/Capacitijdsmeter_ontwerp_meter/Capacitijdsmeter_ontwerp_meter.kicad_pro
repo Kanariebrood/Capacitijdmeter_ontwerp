@@ -243,6 +243,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 2.0,
+          "drill": 0.85
         }
       ],
       "zones_allow_external_fillets": false
@@ -675,7 +679,7 @@
         "uuid": "9038971f-42b3-4cb9-a5a2-d03d3167c17b"
       }
     ],
-    "used_designators": "R6,R13-14",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
