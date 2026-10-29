@@ -6583,16 +6583,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 36.83) (xy 283.21 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ba6e01e-541b-4b91-b397-6b22034ae0aa")
-	)
-	(wire
-		(pts
 			(xy -25.4 184.15) (xy -25.4 191.77)
 		)
 		(stroke
@@ -8340,6 +8330,16 @@
 			(type default)
 		)
 		(uuid "b4804d17-1220-4315-bf33-cc10095dcaec")
+	)
+	(wire
+		(pts
+			(xy 283.21 36.83) (xy 283.21 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b61c4937-7528-4679-af2e-cbe086bda22d")
 	)
 	(wire
 		(pts
@@ -17877,7 +17877,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "500"
 			(at 285.75 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20296,6 +20296,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 290.83 41.91 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "938ba15d-131c-4ede-93a1-658329144bc4")
+		(property "Reference" "#PWR087"
+			(at 284.48 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 287.02 41.9099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 290.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d8e85b5-4919-4c53-93cf-e6d72471fe7a")
+		)
+		(instances
+			(project "Capacitijdmeter_ontwerp_counter"
+				(path "/6aee43a7-1066-4186-960d-016fada1ad3c"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 375.92 92.71 0)
 		(unit 1)
@@ -22002,7 +22081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "500"
 			(at 293.37 240.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24802,7 +24881,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "500"
 			(at 281.94 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24884,7 +24963,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "500"
 			(at 284.48 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
